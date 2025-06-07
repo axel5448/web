@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom, #fff1f5, #fde2e4);
+  color: #5c1131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.invitation {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+}
+
+.floral-top,
+.floral-bottom {
+  background-image: url('https://i.ibb.co/0jFFkZT/flores-top.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80px;
+}
+
+.floral-bottom {
+  transform: rotate(180deg);
+  margin-top: 1rem;
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #d63384;
+  margin: 0.5rem 0;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #6a103d;
+}
+
+.title-xv {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #b5179e;
+  margin-bottom: 1.5rem;
+  border-top: 2px dashed #f8bbd0;
+  border-bottom: 2px dashed #f8bbd0;
+  padding: 0.5rem 0;
+}
+
+.date-box {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff0f6;
+  border: 1px solid #f3c5d9;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  color: #6f1d5d;
+}
+
+.date-box p {
+  margin: 0.2rem;
+}
+
+.day, .month, .year {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #a10b69;
+}
+
+.number {
+  font-size: 2rem;
+  color: #dc267f;
+}
+
+.countdown-box {
+  background-color: #ffe0ef;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #f3c5d9;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #a70c6c;
+}
+
+.countdown-text {
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+  color: #7e22ce;
+}
+
+.map-button {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #ff5c8a;
+  color: white;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.map-button:hover {
+  background-color: #d63384;
+}
+
